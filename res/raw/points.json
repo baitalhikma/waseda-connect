@@ -1,0 +1,7 @@
+{ "points" : [
+    {"name" : "Waseda University", "lat" : "35.710097", "long" : "139.721772", "pic" : "1", "description" : "This is Waseda." },
+    {"name" : "Seven-Eleven Nishiwaseda 1 Chome", "lat" : "35.711252", "long" : "139.720417", "pic" : "2", "description" : "Buy everyday goods." },
+    {"name" : "Mos Burger Nishiwaseda", "lat" : "35.711191", "long" : "139.720312", "pic" : "3", "description" : "Eat burgers and stuff." },
+    {"name" : "Uni - Shop & Cafe 125", "lat" : "35.709557", "long" : "139.721229", "pic" : "3", "description" : "..." },
+    {"name" : "Lawson Nishiwaseda Itchome", "lat" : "35.711267", "long" : "139.721803", "pic" : "2", "description" : "Convenience Store" }
+]}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/contact_viewer_title" >
+        <PreferenceScreen
+            android:key="@string/contact_viewer_avatar"
+            android:layout="@layout/icon_preference" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_id"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_id" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_name"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_name" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_email"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_email" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_nationality"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_nationality" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_status"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_status" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_graduation_year"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_graduation_year" />
+        <PreferenceScreen
+            android:key="@string/contact_viewer_faculty"
+            android:layout="@layout/info_preference"
+            android:title="@string/contact_viewer_faculty" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sub_navigation_bb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/dark_bordeaux">
+
+        <Button
+            android:id="@+id/timeline_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:background="@color/dark_bordeaux"
+            android:text="Timeline"
+            android:paddingTop="3dp"
+      		android:paddingBottom="3dp"
+      		android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/post_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:background="@color/dark_bordeaux"
+            android:text="Post"
+            android:paddingTop="3dp"
+        	android:paddingBottom="3dp"
+        	android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/shop_recommended_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:background="@color/dark_bordeaux"
+            android:text="Shop recommended" 
+            android:paddingTop="3dp"
+        	android:paddingBottom="3dp"
+        	android:textColor="#fff"/>
+
+</LinearLayout>

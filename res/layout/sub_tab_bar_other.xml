@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sub_navigation_bb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/dark_bordeaux">
+        
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/dark_bordeaux"
+            android:text="Profile"
+            android:paddingTop="3dp"
+        	android:paddingBottom="3dp"
+        	android:textColor="@color/text_white" />
+
+        <Button
+            android:id="@+id/setting_button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.25"
+            android:background="@color/dark_bordeaux"
+            android:text="Setting"
+            android:paddingTop="3dp"
+        	android:paddingBottom="3dp"
+        	android:textColor="@color/text_white" />
+
+        <Button
+            android:id="@+id/notice_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/dark_bordeaux"
+            android:text="Notice"
+            android:paddingTop="3dp"
+        	android:paddingBottom="3dp"
+        	android:textColor="@color/text_white" />
+        
+        <Button
+            android:id="@+id/map_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/dark_bordeaux"
+            android:text="Map"
+            android:paddingTop="3dp"
+        	android:paddingBottom="3dp"
+        	android:textColor="@color/text_white" />
+
+</LinearLayout>

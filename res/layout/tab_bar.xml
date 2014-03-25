@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/light_bordeaux">
+
+        <Button
+            android:id="@+id/friends_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/light_bordeaux"
+            android:text="Friends"
+            android:paddingTop="7dp"
+        	android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/chat_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/light_bordeaux"
+            android:text="Chat"
+            android:paddingTop="7dp"
+        	android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/bulletinboard_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/light_bordeaux"
+            android:text="Bulletin Board"
+            android:paddingTop="7dp"
+        	android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/arcamera_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/light_bordeaux"
+            android:text="AR Camera"
+            android:paddingTop="7dp"
+        	android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/other_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/light_bordeaux"
+            android:text="Other" 
+            android:paddingTop="7dp"
+        	android:paddingBottom="7dp"/>
+        
+</LinearLayout>

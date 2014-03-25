@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_light">#dbdbdb</color>
+    <color name="dark_bordeaux">#8a0022</color>
+    <color name="bordeaux">#992c46</color>
+    <color name="light_bordeaux">#ba8692</color>
+    <color name="text_white">#fff</color>
+    <color name="text_black">#000</color>
+    <color name="tinted">#3fff</color>
+    <color name="text_unactive">#988</color>
+    <color name="gray_text">#AAA</color>
+</resources>

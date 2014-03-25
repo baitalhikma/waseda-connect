@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<string name="about_copyright">© Redsolution LTD, 2010-2013</string>
+    <string name="about_feedback">mailto:info@xabber.com</string>
+    <string name="about_site">http://www.xabber.com</string>
+    <string name="about_version">Version: %s</string>
+    <string name="about_license">License: GNU GPLv3\n<a href="https://github.com/redsolution/xabber-android">Open source software</a></string>  
+
+    
+	<string name="account_compression">Use compression</string>
+    <string name="account_editor_title">%1$s account %2$s</string>
+    <string name="account_enabled">Enabled</string>
+    <string name="account_host">Host</string>
+    <string name="account_password">Password</string>
+    <string name="account_port">Port</string>
+    <string name="account_priority">Priority</string>
+    <string name="account_resource">Resource</string>
+    <string name="account_server_name">Server</string>
+    <string name="account_type">Account type</string>
+    <string name="account_type_hints_xmpp">name@example.com</string>
+    <string name="account_type_helps_xmpp">If you want to learn more about XMPP (Jabber) here: http://xmpp.org\nTo register new XMPP account please go to https://register.jabber.org, or any other Jabber server.</string>
+	<string name="account_type_names_xmpp">XMPP</string>
+	<string name="account_user_name">Username</string>
+    <string name="EMPTY_SERVER_NAME">Server name is not specified</string>
+    <string name="EMPTY_USER_NAME">Username is not specified</string>
+    <string name="account_archive_mode">Store message history</string>
+    <string name="account_archive_mode_available">On server if available</string>
+    <string name="account_archive_mode_dont_store">Don\'t store</string>
+    <string name="account_archive_mode_local">Locally on device</string>
+    <string name="account_archive_mode_server">On server</string>
+    <string name="account_archive_mode_unread">Locally only unsent and unread</string>
+    <string name="account_compression_summary">Check to enable data compression</string>
+    <string name="account_custom">Custom host</string>
+    <string name="account_custom_summary">Use custom host settings instead of SRV record</string>
+    <string name="account_enabled_summary">Check to enable account</string>
+    <string name="account_invalid_port">Port must be a number (default: 5222)</string>
+    <string name="account_invalid_priority">Priority value must be a number between -128 and 128 (default: 10)</string>
+    <string name="account_oauth">Authorization</string>
+    <string name="account_oauth_invalidated">Not authorized</string>
+    <string name="account_oauth_summary">OAuth settings</string>
+    <string name="account_protocol_xmpp_title">XMPP</string>
+    <string name="account_proxy_host">Proxy host</string>
+    <string name="account_proxy_password">Proxy password</string>
+    <string name="account_proxy_port">Proxy port</string>
+    <string name="account_proxy_type">Proxy type</string>
+    <string name="account_proxy_type_http">HTTP</string>
+    <string name="account_proxy_type_none">Disabled</string>
+    <string name="account_proxy_type_orbot">Orbot</string>
+    <string name="account_proxy_type_socks4">SOCKS4</string>
+    <string name="account_proxy_type_socks5">SOCKS5</string>
+    <string name="account_proxy_user">Proxy user</string>
+	<string name="account_store_password">Store password</string>
+	<string name="account_sasl">Use SASL Authentication (recommended)</string>
+	<string name="account_sasl_summary">Disable for very old server</string>
+    <string name="account_store_password_summary">Disable this option to request password each time you go online</string>
+    <string name="account_syncable">Integration into system contacts</string>
+    <string name="account_syncable_summary">Show contacts from this account in phone`s contact list</string>
+    <string name="account_tls_enable">Enable TLS</string>
+    <string name="account_tls_enable_summary">Use TLS encryption when possible to connect to server</string>
+    <string name="account_tls_legacy">Legacy SSL</string>
+    <string name="account_tls_legacy_summary">Use legacy SSL encryption when connect to server</string>
+    <string name="account_tls_mode">TLS/SSL usage</string>
+    <string name="account_tls_require">Require TLS</string>
+    <string name="account_tls_require_summary">Require TLS encryption when connect to server</string>
+    <string name="confirm_cancellation">Are you sure you want to discard all the changes?</string>
+    <string name="INCORRECT_USER_NAME">Incorrect user name. Check help text below for details.</string>
+    <string name="orbot_required_message">In order to process using TOR you must have Orbot installed and activated to proxy traffic through it. Would you like to install it from Google Play?</string>
+    <string name="orbot_required_title">Install Orbot?</string>
+    <string name="registration_label">New registration</string>
+    <string name="name">Name</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="nationality">Nationality</string>
+    <string name="select_country">Choose a country</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_registration">Register</string>
+    <string name="welcome_label">Completion of registration</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="graduation_year">"Graduation year"</string>
+    <string name="select_year">Choose a year</string>
+    <string name="nickname">Nickname/ID</string>
+    <string name="submit">Submit</string>
+    <string name="faculty">Faculty</string>
+    <string name="select_faculty">Choose a faculty</string>
+    <string name="select_undergraduate">Choose a status</string>
+    <string-array name="countries">
+        <item></item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="years">
+        <item></item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+    </string-array>
+    <string-array name="status">
+        <item></item>
+        <item>Undergraduate</item>
+        <item>Graduate</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="faculties">
+        <item></item>
+        <item>Faculty of Political Science and Economics</item>
+        <item>Faculty of Law</item>
+        <item>Faculty of Letters, Arts and Sciences</item>
+        <item>Faculty of Education and Integrated Arts and Sciences</item>
+        <item>Faculty of Commerce</item>
+        <item>Faculty of Social Sciences</item>
+        <item>Faculty of Human Sciences</item>
+        <item>Faculty of Sport Sciences</item>
+        <item>Faculty of Science and Engineering</item>
+        <item>Faculty of International Research &amp; Education</item>
+    </string-array>
+    <string name="message_sound">Message sound</string>
+    <string name="status">Status</string>
+    <string name="version">Version</string>
+    <string name="change_pw">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="old_pw">Old password</string>
+    <string name="new_pw">New password</string>
+    <string name="change_sound">Change sound</string>
+    <string name="change_avatar">Change profile picture</string>
+    <string name="select_image_source">Select the image source.</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="no_sd">Cannot find a SD card.</string>
+	<string name="sd_readonly">SD card is set to read-only.</string>
+	
+	<string name="server_address">TODO PUT YOUR SERVER ADDRESS HERE</string>
+    <string name="host_name">YOUR HOST NAME</string>
+    <string name="account_delete_confirm">Do you really want to delete account %s?\n(it won\'t be deleted from server, just from Xabber)</string>
+    <string name="account_add">Login</string>
+    <string name="account_delete">Delete account</string>
+    <string name="account_editor">Edit account</string>
+    <string name="account_state_authentication">Authorizing</string>
+    <string name="account_state_connected">Online</string>
+    <string name="account_state_connecting">Connecting</string>
+    <string name="account_state_disconnecting">Disconnecting</string>
+    <string name="account_state_offline">Offline</string>
+    <string name="account_state_waiting">Waiting to reconnect</string>
+    <string name="register_account">Register new account</string>
+    
+    <string name="toast_selection">YOU NEED TO SELECT TWO POINTS</string>
+    <string name="progress_processing">Processing image</string>
+    <string name="progress_translating">Translating text</string>
+    <string name="toast_suggestion"></string>
+    
+    <string name="about"></string>
+    <string name="settings">Settings</string>
+    <string name="conf_lev">Set the Confidence Level (40 to 80%)</string>
+    <string name="cap_freq">Set the delay between screen captures (1 to 10 seconds)</string>
+    <string name="au_res">Resume screen capturing after a successful recognition</string>
+    <string name="nullValue">0</string>
+    <string name="save">Save</string>
+    
+     <string name="action_status_text">%1$s changed status: %2$s</string>
+    <string name="action_status_text_none">%1$s cleared status text</string>
+    <string name="action_join">%1$s joined conference</string>
+    <string name="action_kick">%1$s was kicked</string>
+    <string name="account_is_offline">You are currently offline. Messages you send will be delivered next time you connect.</string>
+    <string name="chat_delay">Message was sent at %s</string>
+    <string name="chat_input_hint">Type your message here</string>
+    <string name="chat_page">Chat %1$d of %2$d</string>
+    <string name="chat_send">Send</string>
+    <string name="clear_history">Clear history</string>
+    <string name="clear_message">Clear text</string>
+    <string name="contact_is_offline">The recipient is offline. Messages you send will be delivered when they come back online.</string>
+    <string name="FILE_NOT_FOUND">File not found</string>
+    <string name="message_copy">Copy</string>
+    <string name="message_quote">Quote</string>
+    <string name="message_remove">Remove from history</string>
+    <string name="message_repeat">Retry sending</string>
+    <string name="save_history">Save local history\nStore message history locally</string>
+    <string name="show_history">Show history</string>
+    <string name="action_attention_called">Call attention was sent</string>
+    <string name="action_attention_requested">Attention was requested</string>
+    <string name="action_ban">%1$s was banned</string>
+    <string name="action_ban_by">%1$s was banned by %2$s</string>
+    <string name="action_invite_error">Invitation was not received by %s</string>
+    <string name="action_invite_sent">Invitation was sent to %s</string>
+    <string name="action_join_complete">You have joined chat as %1$s</string>
+    <string name="action_join_complete_to">You have joined chat %1$s</string>
+    <string name="action_kick_by">%1$s was kicked by %2$s</string>
+    <string name="action_leave">%1$s left chat</string>
+    <string name="action_nickname">%1$s changed nickname to %2$s</string>
+    <string name="action_otr_encryption">Encryption has been enabled but this contact has not been verified. You can verify it from the OTR encryption menu.</string>
+    <string name="action_otr_error">OTR error: %1$s</string>
+    <string name="action_otr_finish">Opponent has left conversation. You should do the same or restart it.</string>
+    <string name="action_otr_finished_session">Your message has not been sent. Leave the conversation or restart it.</string>
+    <string name="action_otr_plain">You have left the encrypted conversation</string>
+    <string name="action_otr_smp_cheated">Opponent attempted to cheat during verification</string>
+    <string name="action_otr_smp_failed">Verification failed</string>
+    <string name="action_otr_smp_not_approved">Your answer for the secret question was verified. You should ask your opponent too or check shared secret.</string>
+    <string name="action_otr_smp_unverified">Verification failed</string>
+    <string name="action_otr_smp_verified">Verification successfully passed</string>
+    <string name="action_otr_unreadable">The encrypted message received is unreadable</string>
+    <string name="action_otr_verified">Encryption enabled</string>
+    <string name="action_status_available">%1$s is now online</string>
+    <string name="action_status_away">%1$s is now away</string>
+    <string name="action_status_chat">%1$s free for chat</string>
+    <string name="action_status_dnd">%1$s asks do not disturb</string>
+    <string name="action_status_unavailable">%1$s is now unavailable</string>
+    <string name="action_status_xa">%1$s away for a long time</string>
+    <string name="action_subject">%1$s has changed the subject to: %2$s</string>
+    <string name="ATTENTION_IS_NOT_SUPPORTED">Contact doesn\'t support or has disabled attention</string>
+    <string name="call_attention">Call attention</string>
+    <string name="chat_settings">Chat settings</string>
+    <string name="chat_state_composing">Typing ...</string>
+    <string name="chat_state_paused">Entered text ...</string>
+    <string name="chat_typed">Message was entered at %s</string>
+    <string name="export_chat">Export chat</string>
+    <string name="export_chat_done">History has been exported to SD Card</string>
+    <string name="export_chat_mask">%2$s for %1$s.html</string>
+    <string name="export_chat_send">Send after export</string>
+    <string name="export_chat_title">Enter file name</string>
+    <string name="muc_invite">Invite to chat</string>
+    <string name="muc_is_unavailable">Your messages can not be delivered. Please join chat</string>
+    <string name="occupant_list">List of occupants</string>
+    <string name="otr_request">Off-the-Record private conversation has been requested but you do not have a supportive plugin. Use Pidgin or Adium for PC/Mac and Xabber or GibberBot for Android. Go to http://otr.cypherpunks.ca/ for more information.</string>
+    <string name="otr_unencrypted_message">This message has not been encrypted</string>
+    <string name="otr_unreadable_message">The encrypted message you sent is unreadable</string>
+    <string name="otr_verification">OTR verification</string>
+    <string name="otr_verify_fingerprint">Verify with fingerprint</string>
+    
+     <string name="CANNOT_ADD_TO_GROUP">Error: can\'t add to group</string>
+    <string name="CANNOT_CREATE_CONTACT">Error: can\'t add contact</string>
+    <string name="CANNOT_REMOVE_CONTACT">Error: can\'t delete contact</string>
+    <string name="CANNOT_REMOVE_FROM_GROUP">Error: can\'t remove from group</string>
+    <string name="CANNOT_REMOVE_GROUP">Error: can\'t delete group</string>
+    <string name="CANNOT_RENAME_GROUP">Error: can\'t rename group</string>
+    <string name="contact_account">Account</string>
+    <string name="contact_editor_title">Editing %s</string>
+    <string name="contact_group">Select groups</string>
+    <string name="contact_name">Alias (optional)</string>
+    <string name="contact_subscribe_confirm">Would you like to add \'%1$s\' to your contact list?</string>
+    <string name="contact_user">Contact username</string>
+    <string name="ENTRY_IS_NOT_FOUND">Contact not found</string>
+    <string name="group_add">Create new group</string>
+    <string name="group_default">Friends</string>
+    <string name="group_exists">Group with this name already exists</string>
+    <string name="group_is_empty">Set group name</string>
+    <string name="group_name">Group name</string>
+    <string name="choose_account">Choose an account</string>
+    <string name="EMPTY_ACCOUNT">Please select an account</string>
+    <string name="ENTRY_IS_NOT_AVAILABLE">Contact is not available</string>
+    
+    <string name="accept_subscription">Accept contact</string>
+    <string name="account_reconnect">Reconnect</string>
+    <string name="application_action_disabled">Manage accounts</string>
+    <string name="application_action_empty">Add account</string>
+    <string name="application_action_no_contacts">Add contact</string>
+    <string name="application_action_no_online">Show offline contacts</string>
+    <string name="application_action_offline">Go online</string>
+    <string name="application_action_waiting">Reconnect</string>
+    <string name="application_state_connecting">Connecting...</string>
+    <string name="application_state_disabled">Accounts disabled</string>
+    <string name="application_state_empty">You don\'t have any accounts</string>
+    <string name="application_state_no_contacts">You have no contacts</string>
+    <string name="application_state_no_online">Nobody online</string>
+    <string name="application_state_offline">No online accounts</string>
+    <string name="application_state_roster">Connected.</string>
+    <string name="application_state_starting">Launching application... </string>
+    <string name="application_state_waiting">Waiting for connection...</string>
+    <string name="chat_list">Chat list</string>
+    <string name="chat_list_is_empty">No active chats</string>
+    <string name="chat_viewer">Chat</string>
+    <string name="close_chat">Close chat</string>
+    <string name="CONNECTION_FAILED">Connection error</string>
+    <string name="contact_delete">Delete</string>
+    <string name="contact_delete_confirm">Do you really want to delete contact %1$s?</string>
+    <string name="contact_editor">Edit</string>
+    <string name="contact_list">Contact list</string>
+    <string name="discard_subscription">Decline contact</string>
+    <string name="exit">Exit</string>
+    <string name="group_active_chat">Active chats</string>
+    <string name="group_none">No groups</string>
+    <string name="group_remove">Delete group</string>
+    <string name="group_remove_confirm">Do you really want to delete group %s? Users from this group will stay in contact list.</string>
+    <string name="group_rename">Rename group</string>
+    <string name="NO_SUCH_ACCOUNT">Account not found</string>
+    <string name="NOT_CONNECTED">Connection not established</string>
+    <string name="request_subscription">Request subscription</string>
+    <string name="XMPP_EXCEPTION">Stream error</string>
+    <string name="application_state_closing">Saving changes...\nApplication will be closed soon.</string>
+    <string name="certificate_confirmation">%1$s.\nDo you absolutely trust a certificate with sha1 fingerprint: %2$s? Do you want not to be notified about this issue with this certificate?</string>
+    <string name="certificate_details">\n\nIssued to:\nCommon Name (CN): %1$s\nOrganization (O): %2$s\nOrganizationl Unit (OU): %3$s\nSerial Number: %4$s\n\nIssued by:\nCommon Name (CN): %5$s\nOrganization (O): %6$s\nOrganizationl Unit (OU): %7$s\n\nValidity:\nIssued on: %8$s\nExpires on: %9$s.</string>
+    <string name="certificate_invalid_chane">Signature chain verification failed</string>
+    <string name="certificate_invalid_target">Target verification failed</string>
+    <string name="certificate_self_signed">Self-signed certificate</string>
+    <string name="certificate_show_details">Details ...</string>
+    <string name="close_chats">Close all chats</string>
+    <string name="group_room">Conferences</string>
+    <string name="OTR_ERROR">OTR error</string>
+    <string name="select_contact">Please click to select contact</string>
+    <string name="show_offline_always">Always show</string>
+    <string name="show_offline_never">Never show</string>
+    <string name="show_offline_normal">Use general settings</string>
+    <string name="show_offline_settings">Show offline contacts</string>
+    <string name="search_contact_filter">Search contact list</string>
+    <string name="search_chat_filter">Search current chats</string>
+    
+    <string name="contact_viewer">View information</string>
+    <string name="contact_viewer_for">View information about %s</string>
+    <string name="contact_viewer_title">User profile information</string>
+    <string name="contact_viewer_avatar">Contact avatar</string>
+    <string name="contact_viewer_id">User id</string>
+    <string name="contact_viewer_name">Full name</string>
+    <string name="contact_viewer_email">Email</string>
+    <string name="contact_viewer_nationality">Nationality</string>
+    <string name="contact_viewer_status">Status</string>
+    <string name="contact_viewer_graduation_year">Graduation year</string>
+    <string name="contact_viewer_faculty">Faculty</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="unknown">Unknown</string>
+    
+    <string name="otr_fingerprint_description">Your opponent can provide his fingerprint you can compare with specified here to be sure he is who you think he is. You should not use XMPP chat for this purpose.</string>
+    <string name="otr_is_verified">This contact is trusted</string>
+    <string name="otr_local_fingerprint">Your fingerprint:</string>
+    <string name="otr_remote_fingerprint">Your opponent\'s fingerprint:</string>
+    <string name="otr_scan_fingerprint">Scan QR code with opponent\'s fingerprint</string>
+    <string name="otr_show_fingerprint">Show QR code with your fingerprint</string>
+    <string name="zxing_install_fail">There is no Google Play installed. Please install Barcode Scanner manually.</string>
+    <string name="zxing_install_message">This application requires Barcode Scanner. Would you like to install it?</string>
+    <string name="otr_copy_fingerprint">Copy your fingerprint to clipboard</string>
+    
+    <string name="development_title">Waseda Connect</string>
+    
+    <string name="EMPTY_NICK_NAME">Nickname not specified</string>
+    <string name="EMPTY_ROOM_NAME">Conference not specified</string>
+    <string name="muc_join">Join conference</string>
+    <string name="muc_nick">Nick</string>
+    <string name="muc_nick_hint">Your nick in conference</string>
+    <string name="muc_password">Password</string>
+    <string name="muc_password_hint">password is not required</string>
+    <string name="muc_room">Conference</string>
+    <string name="muc_server">Multi User Chat server</string>
+    <string name="muc_server_hint">conference.jabber.org</string>
+    <string name="NICK_ALREADY_USED">Nick already used</string>
+    <string name="ALREADY_IN_PROGRESS">Already in progress</string>
+    <string name="muc_add">Join conference</string>
+    <string name="muc_delete">Remove conference</string>
+    <string name="muc_delete_confirm">Do you really want to remove conference %1$s?</string>
+    <string name="muc_edit">Authorization settings</string>
+    <string name="muc_invite_confirm">%2$s invites you to join conference %3$s. Join from account %1$s?</string>
+    <string name="muc_invite_confirm_reason">%2$s invites you to join conference %3$s: %4$s. Join from account %1$s?</string>
+    <string name="muc_leave">Leave conference</string>
+    <string name="muc_save">Save conference</string>
+    
+    <string name="account_quantity_1">account</string>
+    <string name="account_quantity_2">accounts</string>
+    <string name="account_quantity_offline_1">account</string>
+    <string name="account_quantity_offline_2">accounts</string>
+    <string name="AUTHENTICATION_FAILED">Authorization error</string>
+    <string name="chat_contact_quantity_1">contact</string>
+    <string name="chat_contact_quantity_2">contacts</string>
+    <string name="chat_message_quantity_1">message</string>
+    <string name="chat_message_quantity_2">messages</string>
+    <string name="chat_status">%1$d %2$s from %3$d %4$s</string>
+    <string name="connection_state_connected_1">%1$d of %2$d %3$s online</string>
+    <string name="connection_state_connected_2">%1$d of %2$d %3$s online</string>
+    <string name="connection_state_connecting_1">%1$d of %2$d %3$s connecting</string>
+    <string name="connection_state_connecting_2">%1$d of %2$d %3$s connecting</string>
+    <string name="connection_state_waiting_1">%1$d of %2$d %3$s waiting to connect</string>
+    <string name="connection_state_waiting_2">%1$d of %2$d %3$s waiting to connect</string>
+    <string name="connection_state_offline">%1$d %2$s offline</string>
+    <string name="archive_available_request_message">Do you want to store message history on server?\nIt allows the chat client to load message history from all the devices using this account.\nThis feature will take some additional traffic and will slightly reduce connection speed.\nWARNING: All your local history will be removed.</string>
+    <string name="archive_available_request_title">Enable message archive?</string>
+    <string name="INVALID_CERTIFICATE">Invalid certificate</string>
+    <string name="muc_invite_message">Group message received</string>
+    <string name="otr_verification_in_progress">Click here to abort it.</string>
+    <string name="PASSWORD_REQUIRED">Password required</string>
+    <string name="pay_attention">Pay attention</string>
+    <string name="subscription_request_message">Authorization request</string>
+    
+     <string name="events_phrases_title">Key phrases</string>
+    <string name="phrase_add">Add phrase</string>
+    <string name="phrase_delete">Delete phrase</string>
+    <string name="phrase_delete_confirm">Do you really want to delete phrase: %s?</string>
+    <string name="phrase_empty">&lt; Any text &gt;</string>
+    <string name="phrase_group">Part of the contact group</string>
+    <string name="phrase_regexp">Regular expression</string>
+    <string name="phrase_sound">Sound\nChoose notification sound</string>
+    <string name="phrase_text">Text to search for</string>
+    <string name="phrase_user">Contact\'s</string>
+    
+     <string name="cache_clear">Clear cache\nClear all local data. This can free some space.</string>
+    <string name="cache_clear_warning">Do you really want to remove chat history and another local data?\nAccount and roster data are not affected. Application will be closed.</string>
+    <string name="chats_send_by_enter">Send on Enter\nMessage can be sent by Enter button</string>
+    <string name="connection_go_away">Auto-away\nAutomatically set away status on screen lock</string>
+    <string name="contacts_order">Sort contacts\nAllows to set contacts order</string>
+    <string name="contacts_order_alphabet">Alphabetically</string>
+    <string name="contacts_order_status">By status</string>
+    <string name="contacts_show_accounts">Group by account\nGroup contacts in contact list by account</string>
+    <string name="contacts_show_active_chats">Active chats on top\nDisplay active chats on top of contact list</string>
+    <string name="contacts_show_avatars">Show avatars\nShows users\' avatars in contact list</string>
+    <string name="contacts_show_empty_groups">Show empty groups\nShow groups with no online contacts </string>
+    <string name="contacts_show_groups">Show groups\nShow groups in contact list</string>
+    <string name="contacts_show_offline">Show offline contacts</string>
+    <string name="contacts_show_panel">Show account\'s panel\nShow panel with account\'s avatars in the beginning of contact list</string>
+    <string name="contacts_stay_active_chats">Duplicate active chats\nActive chats appear both on top of contact list and in home groups</string>
+    <string name="debug_log">Debug log\nWrite messages to debug log (please restart application to apply changes)</string>
+    <string name="events_lightning">Light indication\nBlink LED on notification</string>
+    <string name="events_persistent">Taskbar icon\nShow persistent notification. This option prevents Android from unloading application from memory</string>
+    <string name="events_sound">Audio alert\nChoose notification sound</string>
+    <string name="events_vibro">Vibrate\nVibrate on notification</string>
+    <string name="interface_theme">Theme\nTheme settings</string>
+    <string name="interface_theme_dark">Dark</string>
+    <string name="interface_theme_light">Light</string>
+    <string name="interface_theme_normal">Default</string>
+    <string name="interface_smiles">Emoticons\nEmoticons (previously known as smiles) settings</string>
+    <string name="interface_smiles_android">Android emoticons</string>
+    <string name="interface_smiles_none">No graphical emoticons</string>
+    <string name="preference_connection">Connection settings\nConnection settings</string>
+    <string name="preference_contacts">Contact list\nCustomize contact list appearance</string>
+    <string name="preference_debug">Debug settings\nSettings to help developers improve Xabber</string>
+    <string name="preference_editor">Settings</string>
+    <string name="preference_events">Notifications\nNotification settings</string>
+    <string name="preference_interface">Theme settings\nAppearance settings</string>
+    <string name="about_viewer">About</string>
+    <string name="chats_divide">Message on the new line\nDisplay a message on a new line</string>
+    <string name="chats_divide_portrait">In portrait mode</string>
+    <string name="chats_font_size">Font size\nSize of text in the message</string>
+    <string name="chats_font_size_large">Large</string>
+    <string name="chats_font_size_normal">Normal</string>
+    <string name="chats_font_size_small">Small</string>
+    <string name="chats_font_size_xlarge">Extra large</string>
+    <string name="chats_hide_keyboard">Hide keyboard\nHide software keyboard after message sent</string>
+    <string name="chats_hide_keyboard_landscape">In landscape mode</string>
+    <string name="chats_show_avatars">Avatars in messages\nShow avatars in each message</string>
+    <string name="chats_show_status_change">Show status changes\nShow messages about status changes</string>
+    <string name="chats_show_status_change_muc">In conferences</string>
+    <string name="chats_state_notification">Show typing notification\nNotify that you are typing</string>
+    <string name="connection_adjust_priority">Adjust priority\nSet priority according to selected status. Account`s priority will be overridden.</string>
+    <string name="connection_go_away_immediately">Immediately on screen lock</string>
+    <string name="connection_go_xa">"Extended away" when idle\nSet "Extended away" on screen lock</string>
+    <string name="connection_priority">Priority settings</string>
+    <string name="connection_start_at_boot">Start when Android boots\nStart the application when Android boots. This doesn\'t work when Xabber is installed on SDCard.</string>
+    <string name="connection_wake_lock">Prevent sleep mode\nWill reduce battery life</string>
+    <string name="connection_wifi_lock">Keep WiFi awake\nKeep WiFi active while on standby. Will reduce battery life</string>
+    <string name="contacts_reset_offline">Reset offline settings\nClear individual settings for groups and accounts</string>
+    <string name="contacts_reset_offline_warning">Do you realy want to clear individual settings for groups and accounts?</string>
+    <string name="events_first_only">Alert on first message\nNotify only on first message in the chat</string>
+    <string name="events_ignore_system_vibro">Ignore system vibration settings\nUse this option if system vibration does not work</string>
+    <string name="events_message">Notification settings\nConfigure notifications about incoming messages</string>
+    <string name="events_message_chat">Chats only</string>
+    <string name="events_message_chat_and_muc">Chats and conferences</string>
+    <string name="events_message_none">Don\'t notify</string>
+    <string name="events_show_text">Show message in notification\nShow message text in notification area</string>
+    <string name="events_visible_chat">Notify in current chat\nNotify on incoming messages in current chat</string>
+    <string name="negative_priotiry_summary">%s (you won\'t receive messages from any chat)</string>
+    <string name="preference_accounts">XMPP accounts\nManage your accounts</string>
+    <string name="preference_security">Security\nSecurity settings</string>
+    <string name="security_check_certificate">Check server certificate\nNotify about certificate issues while encrypted connection</string>
+    <string name="security_clear_certificate">Remove certificates\nClear list of certificates ignored</string>
+    <string name="security_otr_history">Store history\nStore history while OTR session</string>
+    <string name="security_otr_mode">OTR mode</string>
+    <string name="chats_attention">Attention\nReact for the incoming attention requests</string>
+    <string name="chats_attention_sound">Attention sound\nChoose ring-tone</string>
+    <string name="connection_load_vcard">Load vCard\nLoad and update contact\'s personal info and avatar. Disable to reduce traffic usage.</string>
+    <string name="events_phrases">Key phrases\nCustom sound notifications about messages with preset phrases</string>
+    <string name="security_clear_certificate_warning">Do you really want to remove all the ignored certificates?</string>
+    <string name="choose_sound">Choose notification sound</string>
+    
+    <string name="otr_answer">Secret answer:</string>
+    <string name="otr_question">Secret question:</string>
+    <string name="otr_question_description">Use secret question to verify each other.</string>
+    <string name="otr_secret">Shared secret:</string>
+    <string name="otr_secret_description">Use shared secret to verify each other.</string>
+    
+    <string name="available">Available</string>
+    <string name="away">Away</string>
+    <string name="chat">Ready for chat!</string>
+    <string name="clear_statuses">Delete saved status messages</string>
+    <string name="dnd">Do not disturb</string>
+    <string name="edit_status">Edit status</string>
+    <string name="empty_status">&lt;Empty status&gt;</string>
+    <string name="invisible">Invisible</string>
+    <string name="remove_status">Delete status</string>
+    <string name="select_status">Set status</string>
+    <string name="status_editor">Change status</string>
+    <string name="status_editor_for">Change status for %s</string>
+    <string name="status_text_hint">Set your status</string>
+    <string name="unavailable">Offline</string>
+    <string name="unsubscribed">Not authorized</string>
+    <string name="xa">Away for a long time</string>
+    
+    <string name="contact_add">Add contact</string>
+    <string name="show_contact_list">Show all contacts</string>
+    <string name="show_online_contacts">Show online contacts</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="flashOn">Flash On</string>
+    <string name="flashOff">Flash Off</string>
+    <string name="down_text"> \"Waseda Connect\" is designed to assist people who will be visiting Japan, but won\'t have any Internet connection during their stay. This App works completely offline, but first needs to download the necessary data for translation and navigation to the SD card (total ~73 Mb). Would you like to download all data now?</string>
+	<string name="checkBox">Do not show this dialog again</string> 
+	<string name="down_button">Download</string> 
+	<string name="progress_dictionary">Downloading dictionary</string>
+	<string name="down_title">Welcome to Waseda Connect</string>
+	<string name="progress_library">Downloading OCR library</string>
+	<string name="toast_network">No network connection</string>
+</resources>
