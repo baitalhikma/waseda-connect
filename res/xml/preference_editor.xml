@@ -340,8 +340,4 @@
                 android:key="@string/cache_clear_key"
                 />
         </PreferenceScreen>
-        <PreferenceScreen
-            android:title="@string/preference_about"
-            android:key="@string/preference_about_key"
-            />
 </PreferenceScreen>

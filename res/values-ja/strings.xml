@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2014, Bait Al-Hikma Hikma LTD. All rights reserved.
+
+    This file is part of Waseda Connect.
+
+    Waseda Connect is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Waseda Connect is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Waseda Connect.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="account_compression">圧縮利用</string>
+    <string name="account_editor_title">%1$s アカウント %2$s</string>
+    <string name="account_enabled">使用可能</string>
+    <string name="account_host">Host</string>
+    <string name="account_password">パスワード</string>
+    <string name="account_port">Port</string>
+    <string name="account_priority">優先順位</string>
+    <string name="account_resource">資源</string>
+    <string name="account_server_name">サーバー</string>
+    <string name="account_type">アカウントタイプ</string>
+    <string name="account_user_name">ユーザー名</string>
+    <string name="EMPTY_SERVER_NAME">サーバー名が指定されません</string>
+    <string name="EMPTY_USER_NAME">ユーザー名が指定されません</string>
+    <string name="account_archive_mode">お知らせ</string>
+    <string name="account_archive_mode_available">利用可能なサーバー</string>
+    <string name="account_archive_mode_dont_store">保管しない</string>
+    <string name="account_archive_mode_local">ローカルデバイス上</string>
+    <string name="account_archive_mode_server">サーバー上</string>
+    <string name="account_archive_mode_unread">ローカルにのみ未送信と未読</string>
+    <string name="account_compression_summary">データ圧縮を有効にするには、チェック</string>
+    <string name="account_custom">カスタムホスト</string>
+    <string name="account_custom_summary">代わりに、SRVレコードのカスタムホスト設定を使用</string>
+    <string name="account_enabled_summary">アカウントを有効にするには、チェック</string>
+    <string name="account_invalid_priority">優先順位の値は-128から128までの数字でなければなりません(初期設定は10です)</string>
+    <string name="account_oauth">承認</string>
+    <string name="account_oauth_invalidated">承認されません</string>
+    <string name="account_proxy_type_none">使用禁止</string>
+    <string name="account_store_password">パスワードを記憶する</string>
+    <string name="account_sasl">SASL 認証を使用する(推奨)</string>
+    <string name="account_sasl_summary">古いサーバーの無効か</string>
+    <string name="account_store_password_summary">次回からパスワードの入力を省略する</string>
+    <string name="account_syncable">システムの連絡先へ統合する</string>
+    <string name="account_syncable_summary">電話帳からコンタクトリストを作成する</string>
+    <string name="confirm_cancellation">すべての変更を破棄してもよろしいですか？</string>
+    <string name="INCORRECT_USER_NAME">ユーザー名が間違っています。詳細については、以下のヘルプテキストを確認してください。</string>
+    <string name="registration_label">新規登録</string>
+    <string name="name">名前</string>
+    <string name="full_name">フルネーム</string>
+    <string name="email">メールアドレス</string>
+    <string name="nationality">国籍</string>
+    <string name="select_country">国を選択してください</string>
+    <string name="confirm_password">パスワードの確認</string>
+    <string name="cancel">キャンセル</string>
+    <string name="confirm_registration">登録</string>
+    <string name="welcome_label">登録が完了しました</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="graduation_year">"卒業年"</string>
+    <string name="select_year">学年を選択してください</string>
+    <string name="nickname">ニックネーム/ID</string>
+    <string name="submit">送信</string>
+    <string name="faculty">学部</string>
+    <string name="select_faculty">学部を選択してください</string>
+    <string name="select_undergraduate">ステータスを選択してください</string>
+
+    <string-array name="status">
+        <item>在学生</item>
+        <item>卒業生</item>
+        <item>そのた</item>
+    </string-array>
+    <string-array name="faculties">
+        <item>政治経済学部</item>
+        <item>法学部</item>
+        <item>文学部/文化構想学部</item>
+        <item>教育学部</item>
+        <item>商学部</item>
+        <item>社会科学部</item>
+        <item>人間科学部</item>
+        <item>スポーツ科学部</item>
+        <item>理工学部</item>
+        <item>国際教養学部</item>
+    </string-array>
+
+    <string name="message_sound">メッセージ音</string>
+    <string name="status">ステータス</string>
+    <string name="version">バージョン</string>
+    <string name="change_pw">パスワードの変更</string>
+    <string name="logout">ログアウト</string>
+    <string name="old_pw">旧パスワード</string>
+    <string name="new_pw">新パスワード</string>
+    <string name="change_sound">音の変更</string>
+    <string name="change_avatar">プロフィール画像の変更</string>
+    <string name="select_image_source">イメージソースを選択します。</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="camera">カメラ</string>
+    <string name="no_sd">SDカードを発見できません</string>
+    <string name="sd_readonly">SDカードは読み取り専用に設定されています</string>
+    <string name="account_add">Login</string>
+    <string name="account_editor">アカウントの編集</string>
+    <string name="account_state_authentication">認証</string>
+    <string name="account_state_connected">オンライン</string>
+    <string name="account_state_connecting">接続</string>
+    <string name="account_state_disconnecting">接続解除</string>
+    <string name="account_state_offline">オフライン</string>
+    <string name="account_state_waiting">再接続を待機しています</string>
+    <string name="register_account">新規アカウントを登録する</string>
+    <string name="flash">Flash</string>
+    <string name="toast_selection">あなたは2点を選択する必要があります</string>
+    <string name="progress_processing">処理画像</string>
+    <string name="progress_translating">テキストの翻訳</string>
+    <string name="settings">設定</string>
+    <string name="conf_lev"> 信頼レベルを設定する(40 to 80%)</string>
+    <string name="cap_freq">画面キャプチャの間隔を設定 (1 ～ 10 秒)</string>
+    <string name="au_res">認識成功後に画面キャプチャを再開</string>
+    <string name="save">保存</string>
+    <string name="action_status_text">%1$s は %2$s にステータスを変更しました</string>
+    <string name="action_status_text_none">%1$s はステータステキストをクリアしました</string>
+    <string name="action_join">%1$s は会議に参加しました</string>
+    <string name="action_kick">%1$s was kicked</string>
+    <string name="account_is_offline">あなたは現在オフラインです。あなたが送ったメッセージは、次回接続時に配信されます。</string>
+    <string name="chat_delay">メッセージは %s に送信されました</string>
+    <string name="chat_input_hint">メッセージを入力してください</string>
+    <string name="chat_page">Chat %1$d of %2$d</string>
+    <string name="chat_send">Send</string>
+    <string name="clear_history">履歴をクリア</string>
+    <string name="clear_message">テキストをクリア</string>
+    <string name="contact_is_offline">受信者がオフラインになっています。次回オンライン時に送信したメッセージが配信されます</string>
+    <string name="FILE_NOT_FOUND">ファイルは見つかりませんでした</string>
+    <string name="message_copy">コピー</string>
+    <string name="message_quote">引用</string>
+    <string name="message_remove">履歴から削除する</string>
+    <string name="message_repeat">再送信</string>
+    <string name="save_history">履歴をローカルに保存する \n メッセージ履歴をローカルに保存する</string>
+    <string name="show_history">履歴を見る</string>
+    <string name="action_attention_called">注意喚起が送信されました</string>
+    <string name="action_attention_requested">注意されました</string>
+    <string name="action_ban">%1$s は禁止されました</string>
+    <string name="action_ban_by">%2$sによって%1$s は禁止されました</string>
+    <string name="action_invite_error">%sに招待は受け取られませんでした</string>
+    <string name="action_invite_sent"> %sに招待が送られました</string>
+    <string name="action_join_complete"> %1$s としてチャットに参加しました</string>
+    <string name="action_join_complete_to">%1$s に参加しました</string>
+    <string name="action_kick_by">%1$s was kicked by %2$s</string>
+    <string name="action_leave">%1$s がチャットを残しています</string>
+    <string name="action_nickname">%1$s はニックネームを %2$s に変更しました</string>
+    <string name="action_otr_encryption">暗号化が有効になっていますが、このコンタクトは確認されていません。あなたはOTR暗号化メニューから確認することができます。</string>
+    <string name="action_otr_error">OTRエラー: %1$s</string>
+    <string name="action_otr_finish">相手がチャットを残しています。あなたは同じことをするか、再起動する必要があります。</string>
+    <string name="action_otr_finished_session">あなたのメッセージは送信されていません。会話を残すか、再起動してください。</string>
+    <string name="action_otr_plain">あなたは暗号化された会話を残しています</string>
+    <string name="action_otr_smp_cheated">認証中に不正を試みられました</string>
+    <string name="action_otr_smp_failed">認証に失敗しました</string>
+    <string name="action_otr_smp_not_approved">秘密の質問のためのあなたの答えを確認しました。他人に秘密を共有しないよう注意してください。</string>
+    <string name="action_otr_smp_unverified">認証に失敗しました</string>
+    <string name="action_otr_smp_verified">認証が成功しました</string>
+    <string name="action_otr_unreadable">受信した暗号化されたメッセージは読み取れません</string>
+    <string name="action_otr_verified">暗号化を有効</string>
+    <string name="action_status_available">%1$s オンラインです</string>
+    <string name="action_status_away">%1$s 今は外しています</string>
+    <string name="action_status_chat">%1$s チャットできます</string>
+    <string name="action_status_dnd">%1$s 取り込み中</string>
+    <string name="action_status_unavailable">%1$sは現在使用できません</string>
+    <string name="action_status_xa">%1$s は長時間外しています</string>
+    <string name="action_subject">%1$s を %2$s に件名を変更しました</string>
+    <string name="ATTENTION_IS_NOT_SUPPORTED">コンタクトはサポートされていません。もしくは、無効です</string>
+    <string name="call_attention">注意喚起</string>
+    <string name="chat_settings">チャットを送信する</string>
+    <string name="chat_state_composing">入力中 ...</string>
+    <string name="chat_state_paused">テキストを入力する ...</string>
+    <string name="chat_typed">メッセージが %s で入力されました</string>
+    <string name="export_chat">チャットをエクスポート</string>
+    <string name="export_chat_done">履歴はSDカードにエクスポートされました</string>
+    <string name="export_chat_mask">%2$s for %1$s.html</string>
+    <string name="export_chat_send">エクスポート後に送信する</string>
+    <string name="export_chat_title">ファイル名を確定する</string>
+    <string name="muc_invite">チャットに招待する</string>
+    <string name="muc_is_unavailable">あなたのメッセージは配信できません。チャットに参加してください</string>
+    <string name="occupant_list">乗員のリスト</string>
+    <string name="otr_request">オフレコのプライベートな会話が要求されていますが、利用可能なプラグインを持っていません。プラグイン or Adium for PC/Mac and Xabber or GibberBot for Androidを利用してください。 詳細情報はこちらへ：http://otr.cypherpunks.ca/</string>
+    <string name="otr_unencrypted_message">このメッセージは、暗号化されていません</string>
+    <string name="otr_unreadable_message">送信された暗号化されたメッセージは読み取れません</string>
+    <string name="otr_verification">OTR 確認</string>
+    <string name="otr_verify_fingerprint">指紋で確認してください</string>
+    <string name="CANNOT_ADD_TO_GROUP">エラー：グループに追加できません</string>
+    <string name="CANNOT_CREATE_CONTACT">エラー：コンタクトを追加できません</string>
+    <string name="CANNOT_REMOVE_CONTACT">エラー：コンタクトを削除できません</string>
+    <string name="CANNOT_REMOVE_FROM_GROUP">エラー：グループを削除できません</string>
+    <string name="CANNOT_REMOVE_GROUP">エラー：グループを削除できません</string>
+    <string name="CANNOT_RENAME_GROUP">エラー：グループ名を変更できません</string>
+    <string name="contact_account">アカウント</string>
+    <string name="contact_editor_title">編集中 %s</string>
+    <string name="contact_group">グループの選択</string>
+    <string name="contact_name"> Alias(optional)</string>
+    <string name="contact_subscribe_confirm"> %1$s をコンタクトリストに追加しますか？</string>
+    <string name="contact_user">ユーザー名にコンタクトします</string>
+    <string name="ENTRY_IS_NOT_FOUND">コンタクトが見つかりません</string>
+    <string name="group_add">新規グループの作成</string>
+    <string name="group_default">友達</string>
+    <string name="group_exists">このグループ名はすでに存在しています</string>
+    <string name="group_is_empty">グループ名を設定する</string>
+    <string name="group_name">グループ名</string>
+    <string name="choose_account">アカウントを選択してください</string>
+    <string name="EMPTY_ACCOUNT">アカウントを選択してください</string>
+    <string name="ENTRY_IS_NOT_AVAILABLE">コンタクトは有効ではありません</string>
+    <string name="accept_subscription">コンタクトを承認する</string>
+    <string name="account_reconnect">再接続</string>
+    <string name="application_action_disabled">アカウントの管理</string>
+    <string name="application_action_empty">アカウントを追加する</string>
+    <string name="application_action_no_contacts">コンタクトを追加する</string>
+    <string name="application_action_no_online">オフラインコンタクトを表示する</string>
+    <string name="application_action_offline">オンラインにする</string>
+    <string name="application_action_waiting">再接続</string>
+    <string name="application_state_connecting">接続中...</string>
+    <string name="application_state_disabled">アカウントは無効です</string>
+    <string name="application_state_empty">あなたはアカウントを持っていません</string>
+    <string name="application_state_no_contacts">コンタクトがありません</string>
+    <string name="application_state_no_online">オンラインはいません</string>
+    <string name="application_state_offline">オンラインのアカウントはありません</string>
+    <string name="application_state_roster">接続しました</string>
+    <string name="application_state_starting">アプリを起動しています</string>
+    <string name="application_state_waiting">接続を待機しています</string>
+    <string name="chat_list">チャットリスト</string>
+    <string name="chat_list_is_empty">有効でないチャット</string>
+    <string name="chat_viewer">チャット</string>
+    <string name="close_chat">チャットを閉じる</string>
+    <string name="CONNECTION_FAILED">接続エラー</string>
+    <string name="contact_add">コンタクト追加</string>
+    <string name="contact_delete">削除</string>
+    <string name="contact_delete_confirm">本当に %1$sのコンタクトを削除しますか？</string>
+    <string name="contact_editor">編集</string>
+    <string name="contact_list">コンタクトリスト</string>
+    <string name="discard_subscription">コンタクトを断る</string>
+    <string name="exit">Exit</string>
+    <string name="group_active_chat">有効なチャット</string>
+    <string name="group_none">グループがありません</string>
+    <string name="group_remove">グループの削除</string>
+    <string name="group_remove_confirm">%sグループを本当に削除しますか？ このグループのユーザーはコンタクトリストに残ります。</string>
+    <string name="NO_SUCH_ACCOUNT">アカウントが見つかりません</string>
+    <string name="NOT_CONNECTED">接続が確立されていません</string>
+    <string name="request_subscription">購読リクエスト</string>
+    <string name="XMPP_EXCEPTION">ストリームエラー</string>
+    <string name="application_state_closing">変更を保存しています... \n アプリケーションはすぐに終了します.</string>
+    <string name="certificate_confirmation">%1$s. \n 本当に指紋証明with sha1: %2$sを信用しますか？ あなたはこの証明書を使用して、これについて通知されないようにしますか？</string>
+    <string name="certificate_details"> \n \n Issued to: \n Common Name (CN): %1$s \n Organization (O): %2$s \n Organizationl Unit (OU): %3$s \n Serial Number: %4$s \n \n Issued by: \n Common Name (CN): %5$s \n Organization (O): %6$s \n Organizationl Unit (OU): %7$s \n \n Validity: \n Issued on: %8$s \n Expires on: %9$s.</string>
+    <string name="certificate_invalid_chane">署名チェーンの検証に失敗しました</string>
+    <string name="certificate_invalid_target">ターゲットを確認できませんでした</string>
+    <string name="certificate_self_signed">自己署名証明書</string>
+    <string name="certificate_show_details">詳細 ...</string>
+    <string name="close_chats">すべてのチャットを閉じる</string>
+    <string name="group_room">会議</string>
+    <string name="OTR_ERROR">OTRエラー</string>
+    <string name="select_contact">コンタクトを選ぶをクリックしてください</string>
+    <string name="show_offline_always">常に表示する</string>
+    <string name="show_offline_never">今後表示しない</string>
+    <string name="show_offline_normal">一般設定を使用</string>
+    <string name="show_offline_settings">オフラインコンタクトを表示する</string>
+    <string name="search_contact_filter">コンタクトリストを検索</string>
+    <string name="search_chat_filter">現在のチャットを検索</string>
+    <string name="contact_viewer">情報を見る</string>
+    <string name="contact_viewer_for"> %sについての情報を見る</string>
+    <string name="contact_viewer_title">ユーザープロフィール情報</string>
+    <string name="contact_viewer_avatar">コンタクトアバター</string>
+    <string name="contact_viewer_id">ユーザーID</string>
+    <string name="contact_viewer_name">フルネーム</string>
+    <string name="contact_viewer_email">Email</string>
+    <string name="contact_viewer_nationality">国籍</string>
+    <string name="contact_viewer_status">ステータス</string>
+    <string name="contact_viewer_graduation_year">卒業年</string>
+    <string name="contact_viewer_faculty">学部</string>
+    <string name="please_wait">お待ちください...</string>
+    <string name="unknown">Unknown</string>
+    <string name="EMPTY_NICK_NAME">ニックネームが指定されていません</string>
+    <string name="EMPTY_ROOM_NAME">会議が指定されていません</string>
+    <string name="muc_join">会議に参加する</string>
+    <string name="muc_nick">ニックネーム</string>
+    <string name="muc_nick_hint">会議でのあなたのニックネーム</string>
+    <string name="muc_password">パスワード</string>
+    <string name="muc_password_hint">パスワードは必要ありません</string>
+    <string name="muc_room">会議</string>
+    <string name="muc_server">マルチユーザーチャットサーバー</string>
+    <string name="NICK_ALREADY_USED">そのニックネームは既に使用されています</string>
+    <string name="ALREADY_IN_PROGRESS">進行中</string>
+    <string name="muc_add">会議へ参加</string>
+    <string name="muc_delete">会議の削除</string>
+    <string name="muc_delete_confirm">あなたは本当に、%1$s会議を削除しますか?</string>
+    <string name="muc_edit">認証設定</string>
+    <string name="muc_invite_confirm">%2$s はあなたを %3$s会議に招待しています。  %1$sアカウントから参加しますか??</string>
+    <string name="muc_invite_confirm_reason">%2$s はあなたを %3$s: %4$s会議に招待しています。 %1$sアカウントから参加しますか?</string>
+    <string name="muc_leave">会議を残す</string>
+    <string name="muc_save">会議を保存</string>
+    <string name="account_quantity_1">account</string>
+    <string name="account_quantity_2">accounts</string>
+    <string name="account_quantity_offline_1">account</string>
+    <string name="account_quantity_offline_2">accounts</string>
+    <string name="AUTHENTICATION_FAILED">認証エラー</string>
+    <string name="chat_contact_quantity_1">contact</string>
+    <string name="chat_contact_quantity_2">contacts</string>
+    <string name="chat_message_quantity_1">message</string>
+    <string name="chat_message_quantity_2">messages</string>
+    <string name="chat_status">%1$d %2$s from %3$d %4$s</string>
+    <string name="connection_state_connected_1">%1$d of %2$d %3$s オンライン</string>
+    <string name="connection_state_connected_2">%1$d of %2$d %3$s オンライン</string>
+    <string name="connection_state_connecting_1">%1$d of %2$d %3$s 接続中</string>
+    <string name="connection_state_connecting_2">%1$d of %2$d %3$s 接続中</string>
+    <string name="connection_state_waiting_1">%1$d of %2$d %3$s 接続を待機しています</string>
+    <string name="connection_state_waiting_2">%1$d of %2$d %3$s 接続を待機しています</string>
+    <string name="connection_state_offline">%1$d %2$s オフライン</string>
+    <string name="archive_available_request_message">サーバー上のメッセージの履歴を保存しますか？  \n これは、このアカウントでログインされた全てのデバイスからのチャットクライアントにメッセージ履歴を読み込むことを許可します。\n この機能は、いくつかの追加の通信がかかり、少し接続速度が低下します。  \n 警告：あなたのすべてのローカル履歴が削除されます。</string>
+    <string name="archive_available_request_title">メッセージアーカイブを有効にしますか？</string>
+    <string name="INVALID_CERTIFICATE">利用できない証明</string>
+    <string name="muc_invite_message">グループメッセージを受信しました</string>
+    <string name="otr_verification_in_progress">中断するにはここを押してください.</string>
+    <string name="PASSWORD_REQUIRED">パスワードが必要です</string>
+    <string name="pay_attention">注意</string>
+    <string name="subscription_request_message">許可が必要です</string>
+    <string name="events_phrases_title">秘密の言葉</string>
+    <string name="phrase_add">フレーズを加える</string>
+    <string name="phrase_delete">フレーズを消す</string>
+    <string name="phrase_delete_confirm">本当にフレーズを消しますか: %s?</string>
+    <string name="phrase_empty">Any text</string>
+    <string name="phrase_group">コンタクトグループの一部</string>
+    <string name="phrase_regexp">標準表現</string>
+    <string name="phrase_sound">Sound \n Choose notification sound</string>
+    <string name="phrase_text">検索ワード</string>
+    <string name="phrase_user">コンタクト</string>
+    <string name="cache_clear">キャッシュを消去する \n 全てのデータを消去する. 容量が解放されます.</string>
+    <string name="cache_clear_warning">本当に履歴とデータを消去していいですか \n アカウントと電話帳には影響しません. アプリが自動停止します.</string>
+    <string name="chats_send_by_enter">Enterを押してください \n Enterボタンを押すとメッセージが送れます</string>
+    <string name="connection_go_away">自動退出 \n フクリーンロックに自動で不在のステータスが表示されます</string>
+    <string name="contacts_order">連絡先を並び替える \n 登録順</string>
+    <string name="contacts_order_alphabet">アルファベット順</string>
+    <string name="contacts_order_status">ステータス純</string>
+    <string name="contacts_show_accounts">アカウントでグループを作る \n アカウントで連絡先からグループを作る</string>
+    <string name="contacts_show_active_chats">利用中のチャットを上部に \n 連絡先の上に利用中のチャットを表示する</string>
+    <string name="contacts_show_avatars">アバターを表示する \n 連絡先で利用者のアバターを表示する</string>
+    <string name="contacts_show_empty_groups">空いているグループを表示する \n オンラインでない連絡先とグループを表示する </string>
+    <string name="contacts_show_groups">グループを表示する \n 連絡先からグループを表示する</string>
+    <string name="contacts_show_offline">オフラインの連絡先を表示する</string>
+    <string name="contacts_show_panel">アカウントのパネルを表示する \n アカウントの初めにアカウントのアバターとオアネルを表示する</string>
+    <string name="contacts_stay_active_chats">利用中のチャットを複製する \n 利用中のチャットを連絡先のトップとグループホームのトップに表示する</string>
+    <string name="debug_log">修正記録 \n 修正記録にメッセージを書く (変更を適用するためにアプリを再起動してください)</string>
+    <string name="events_lightning">点灯 \n 点滅</string>
+    <string name="events_persistent">タスクバーのアイコン \n 通知を続けさせる. この選択はアンドロイドがアプリをメモリーから取り除くのを防ぎます</string>
+    <string name="events_sound">音声アラート \n 通知音を選ぶ</string>
+    <string name="events_vibro">ヴァイブレーション \n バイブレーション通知</string>
+    <string name="interface_theme">テーマ \n テーマを設定する</string>
+    <string name="interface_theme_dark">ダーク</string>
+    <string name="interface_theme_light">ライト</string>
+    <string name="interface_theme_normal">デフォルト</string>
+    <string name="interface_smiles">エモーション \n エモーション </string>
+    <string name="interface_smiles_android">アンドロイドエモーション</string>
+    <string name="interface_smiles_none">グラフィックなしのエモーション</string>
+    <string name="preference_connection">接続設定 \n 接続設定</string>
+    <string name="preference_contacts">連絡先 \n 連絡先の表示形式を変える</string>
+    <string name="preference_debug">設定を変更する \n 開発者が Xabberを改良するのをタウsケル設定をする</string>
+    <string name="preference_editor">設定</string>
+    <string name="preference_events">通知 \n 通知設定</string>
+    <string name="preference_interface">テーマ設定 \n 表示設定</string>
+    <string name="about_viewer">About</string>
+    <string name="chats_divide">新しい列にメッセージを書く \n 新しい列にメッセージを表示する</string>
+    <string name="chats_divide_portrait">ポートレートモード</string>
+    <string name="chats_font_size">フォントサイズ \n テキストのサイズ</string>
+    <string name="chats_font_size_large">大</string>
+    <string name="chats_font_size_normal">中</string>
+    <string name="chats_font_size_small">小</string>
+    <string name="chats_font_size_xlarge">最大</string>
+    <string name="chats_hide_keyboard">キーボード \n メッセージを送った後にキーボードを消す</string>
+    <string name="chats_hide_keyboard_landscape">風景モード</string>
+    <string name="chats_show_avatars">メッセージ中のアバター \n メッセージごとにアバターを表示する</string>
+    <string name="chats_show_status_change">ステータスの変更を表示する \n ステータス変更のメッセージを変更する</string>
+    <string name="chats_show_status_change_muc">会議</string>
+    <string name="chats_state_notification">タイピング中の通知を表示する \n タイピングしている通知を表示する</string>
+    <string name="connection_adjust_priority">優先順位を調整する \n 設定したステータスに応じて優先順位を変更する.アカウントの優先順位を最大とする.</string>
+    <string name="connection_go_away_immediately">スクリーンロック上ですぐに</string>
+    <string name="connection_go_xa">"不在" いない間 \n スクリーンロックに"不在"を表示する </string>
+    <string name="connection_priority">優先順位設定</string>
+    <string name="connection_start_at_boot">アンドロイド起動時にアプリを立ち上げる \n アンドロイド起動時にアプリを立ち上げる. これは Xabberが外部メモリにインストールされている場合無効です.</string>
+    <string name="connection_wake_lock">スリープモードを停止する \n バッテリーを消費します</string>
+    <string name="connection_wifi_lock">Wi-Fiを有効にしたままにする \n スタンバイ中にWi-Fiを有効にしたままにする. バッテリーを消費します</string>
+    <string name="contacts_reset_offline">オフライン設定をリセットする \n グループや特定のアカウントへの個別設定を初期化する</string>
+    <string name="contacts_reset_offline_warning">本当にグループや特定のアカウントへの個別設定を初期化しますか</string>
+    <string name="events_first_only">一通目を通知する \n チャットの一通目だけ通知する</string>
+    <string name="events_ignore_system_vibro">本体のバイブレーション設定を無視する \n 本体のバイブレーションが起動しない場合この機能を使ってください</string>
+    <string name="events_message">通知設定 \n 受信したメッセージの環境設定をする</string>
+    <string name="events_message_chat">チャットのみ</string>
+    <string name="events_message_chat_and_muc">チャットと会議</string>
+    <string name="events_message_none">通知しない</string>
+    <string name="events_show_text">通知にメッセージを表示する \n 通知エリアにメッセージを表示する</string>
+    <string name="events_visible_chat">利用中のチャットに受信したメッセージを通知する \n 利用中のチャットにメッセージを通知する</string>
+    <string name="negative_priotiry_summary">%s (チャットからメッセージを受け取らない)</string>
+    <string name="preference_accounts">XMPP アカウント \n アカウントを設定する</string>
+    <string name="preference_security">セキュリティ \n セキュリティ設定</string>
+    <string name="security_check_certificate">サーバーの証明をチェックする \n 接続の暗号化の間に証明問題を通知する</string>
+    <string name="security_clear_certificate">証明を取り除く \n 初期化した証明を無視する</string>
+    <string name="security_otr_history">履歴を残す \n OTR セッションの間に履歴を保存する</string>
+    <string name="security_otr_mode">OTR モード</string>
+    <string name="chats_attention">通知 \n お誘いに反応する</string>
+    <string name="chats_attention_sound">通知音 \n ring-toneを選ぶ</string>
+    <string name="connection_load_vcard"> vCardを読み込む \n 最新の連絡先の情報とアバターを読み込みアップデートする. 通信量を減らせません.</string>
+    <string name="events_phrases">秘密の言葉 \n 現在の言葉とメッセージについてのカスタムサウンド通知</string>
+    <string name="security_clear_certificate_warning">本当に認証されなかった証明をすべて消していいですか?</string>
+    <string name="choose_sound">サウンドを選ぶ</string>
+    <string name="otr_answer">秘密の回答:</string>
+    <string name="otr_question">秘密の質問:</string>
+    <string name="otr_question_description">お互いを確かめるために秘密の質問に答える.</string>
+    <string name="otr_secret">秘密を共有する:</string>
+    <string name="otr_secret_description">お互いを確認するために共有された秘密を使う.</string>
+    <string name="available">通信可能</string>
+    <string name="away">外出中</string>
+    <string name="clear_statuses">保存されたステータスメッセージを消す</string>
+    <string name="dnd">取り込み中</string>
+    <string name="edit_status">外出中</string>
+    <string name="empty_status">離席中</string>
+    <string name="invisible">ステータスを見えなくする</string>
+    <string name="remove_status">ステータスを消去する</string>
+    <string name="select_status">ステータスを設定する</string>
+    <string name="status_editor">ステータスを変更する</string>
+    <string name="status_editor_for">ステータスを %sに変える</string>
+    <string name="status_text_hint">ステータスを設定する</string>
+    <string name="unavailable">オフライン</string>
+    <string name="unsubscribed">認められません</string>
+    <string name="xa">長期不在</string>
+    <string name="in10m">10分以内</string>
+    <string name="in15m">15分以内</string>
+    <string name="in1h">1時間以内</string>
+    <string name="in1m">1分以内</string>
+    <string name="in2m">2分以内</string>
+    <string name="in30m">30分以内</string>
+    <string name="in5m">5分以内</string>
+    <string name="always">常時</string>
+    <string name="disabled">不具合</string>
+    <string name="manual">マニュアルl</string>
+    <string name="never">Never</string>
+    <string name="required">必須</string>
+    <string name="auto">自動</string>
+    <string name="satellite">GPS機能</string>
+    <string name="friends">友達リスト</string>
+    <string name="chat">チャット</string>
+    <string name="bulletin_board">掲示板</string>
+    <string name="arcamera">ARカメラ</string>
+    <string name="other">その他</string>
+    <string name="timeline">タイムライン</string>
+    <string name="post">ポスト</string>
+    <string name="shop_recommended">お店お勧め</string>
+    <string name="profile">プロフィール</string>
+    <string name="setting">設定</string>
+    <string name="notice">通知</string>
+    <string name="map">地図</string>
+    <string name="start_group_chat">グループチャットを開始する</string>
+
+    <string-array name="countries">
+        <item></item>
+        <item>アフガニスタン</item>
+        <item>アルバニア</item>
+        <item>アルジェリア</item>
+        <item>米サモア</item>
+        <item>アンドラ</item>
+        <item>アンゴラ</item>
+        <item>アングィラ</item>
+        <item>南極大陸</item>
+        <item>アンチグアバーブーダ</item>
+        <item>アルゼンチン</item>
+        <item>アルメニア</item>
+        <item>アルバ</item>
+        <item>オーストラリア</item>
+        <item>オーストリア</item>
+        <item>アゼルバイジャン</item>
+        <item>バーレーン</item>
+        <item>バングラデシュ</item>
+        <item>バルバドス</item>
+        <item>ベラルーシ</item>
+        <item>ベルギー</item>
+        <item>ベリーズ</item>
+        <item>ベナン</item>
+        <item>バミューダ</item>
+        <item>ブータン</item>
+        <item>ボリビア</item>
+        <item>ボスニア·ヘルツェゴビナ</item>
+        <item>ボツワナ</item>
+        <item>ブーベ島</item>
+        <item>ブラジル</item>
+        <item>イギリス領インド洋地域</item>
+        <item>英領ヴァージン諸島</item>
+        <item>ブルネイ</item>
+        <item>ブルガリア</item>
+        <item>ブルキナファソ</item>
+        <item>ブルンジ</item>
+        <item>カンボジア</item>
+        <item>カメルーン</item>
+        <item>カナダ</item>
+        <item>カーボベルデ</item>
+        <item>ケイマン諸島</item>
+        <item>中央アフリカ共和国</item>
+        <item>チャド</item>
+        <item>チリ</item>
+        <item>中国</item>
+        <item>クリスマス島</item>
+        <item>ココス（キーリング）諸島</item>
+        <item>コロンビア</item>
+        <item>コモロ</item>
+        <item>コンゴ</item>
+        <item>クック諸島</item>
+        <item>コスタリカ</item>
+        <item>コートD \'コートジボワール</item>
+        <item>クロアチア</item>
+        <item>キューバ</item>
+        <item>キプロス</item>
+        <item>チェコ共和国</item>
+        <item>コンゴ民主共和国</item>
+        <item>デンマーク</item>
+        <item>ジブチ</item>
+        <item>ドミニカ</item>
+        <item>ドミニカ共和国</item>
+        <item>東ティモール</item>
+        <item>エクアドル</item>
+        <item>エジプト</item>
+        <item>エルサルバドル</item>
+        <item>赤道ギニア</item>
+        <item>エリトリア</item>
+        <item>エストニア</item>
+        <item>エチオピア</item>
+        <item>フェロー諸島</item>
+        <item>フォークランド諸島</item>
+        <item>フィジー</item>
+        <item>フィンランド</item>
+        <item>マケドニア旧ユーゴスラビア共和国</item>
+        <item>フランス</item>
+        <item>仏領ギアナ</item>
+        <item>フランス領ポリネシア</item>
+        <item>フランス領極南諸島</item>
+        <item>ガボン</item>
+        <item>グルジア</item>
+        <item>ドイツ</item>
+        <item>ガーナ</item>
+        <item>ジブラルタル</item>
+        <item>ギリシャ</item>
+        <item>グリーンランド</item>
+        <item>グレナダ</item>
+        <item>グアドループ島</item>
+        <item>グアム島</item>
+        <item>グアテマラ</item>
+        <item>ギニア</item>
+        <item>ギニアビサウ</item>
+        <item>ガイアナ</item>
+        <item>ハイチ</item>
+        <item>ハード島とマクドナルド諸島</item>
+        <item>ホンジュラス</item>
+        <item>香港</item>
+        <item>ハンガリー</item>
+        <item>アイスランド</item>
+        <item>インド</item>
+        <item>インドネシア</item>
+        <item>イラン</item>
+        <item>イラク</item>
+        <item>アイルランド</item>
+        <item>イスラエル</item>
+        <item>イタリア</item>
+        <item>ジャマイカ</item>
+        <item>日本</item>
+        <item>ヨルダン</item>
+        <item>カザフスタン</item>
+        <item>ケニア</item>
+        <item>キリバス</item>
+        <item>クウェート</item>
+        <item>キルギスタン</item>
+        <item>ラオス</item>
+        <item>ラトビア</item>
+        <item>レバノン</item>
+        <item>レソト</item>
+        <item>リベリア</item>
+        <item>リビア</item>
+        <item>リヒテンシュタイン</item>
+        <item>リトアニア</item>
+        <item>ルクセンブルク</item>
+        <item>マカオ</item>
+        <item>マダガスカル</item>
+        <item>マラウイ</item>
+        <item>マレーシア</item>
+        <item>モルディブ</item>
+        <item>マリ</item>
+        <item>マルタ</item>
+        <item>マーシャル諸島</item>
+        <item>マルティニーク島</item>
+        <item>モーリタニア</item>
+        <item>モーリシャス</item>
+        <item>マヨット島</item>
+        <item>メキシコ</item>
+        <item>ミクロネシア</item>
+        <item>モルドバ</item>
+        <item>モナコ</item>
+        <item>モンゴル国</item>
+        <item>モントセラト</item>
+        <item>モロッコ</item>
+        <item>モザンビーク</item>
+        <item>ミャンマー</item>
+        <item>ナミビア</item>
+        <item>ナウル</item>
+        <item>ネパール</item>
+        <item>オランダ</item>
+        <item>オランダ領アンティル</item>
+        <item>ニューカレドニア</item>
+        <item>ニュージーランド</item>
+        <item>ニカラグア</item>
+        <item>ニジェール</item>
+        <item>ナイジェリア</item>
+        <item>ニウエ</item>
+        <item>ノーフォーク島</item>
+        <item>北朝鮮</item>
+        <item>北マリアナ諸島</item>
+        <item>ノルウェー</item>
+        <item>オマーン</item>
+        <item>パキスタン</item>
+        <item>パラオ</item>
+        <item>パナマ</item>
+        <item>パプアニューギニアの</item>
+        <item>パラグアイ</item>
+        <item>ペルー</item>
+        <item>フィリピン</item>
+        <item>ピトケアン諸島</item>
+        <item>ポーランド</item>
+        <item>ポルトガル</item>
+        <item>プエルトリコ</item>
+        <item>カタール</item>
+        <item>再会</item>
+        <item>ルーマニア</item>
+        <item>ロシア</item>
+        <item>ルワンダ</item>
+        <item>SQOプリンシペ</item>
+        <item>セント·ヘレナ島</item>
+        <item>セントクリストファーネイビス</item>
+        <item>セントルシア</item>
+        <item>サンピエール島·ミクロン島</item>
+        <item>セントビンセントおよびグレナディーン諸島</item>
+        <item>サモア</item>
+        <item>サン·マリノ</item>
+        <item>サウジアラビア</item>
+        <item>セネガル</item>
+        <item>セイシェル</item>
+        <item>シエラレオネ</item>
+        <item>シンガポール</item>
+        <item>スロバキア</item>
+        <item>スロベニア</item>
+        <item>ソロモン諸島</item>
+        <item>ソマリア</item>
+        <item>南アフリカ</item>
+        <item>南ジョージア島と南サンドイッチ諸島</item>
+        <item>韓国</item>
+        <item>スペイン</item>
+        <item>スリ·ランカ</item>
+        <item>スーダン</item>
+        <item>スリナム</item>
+        <item>スバールバル諸島ヤンマイエン島</item>
+        <item>スワジランド</item>
+        <item>スウェーデン</item>
+        <item>スイス</item>
+        <item>シリア</item>
+        <item>台湾</item>
+        <item>タジキスタン</item>
+        <item>タンザニア</item>
+        <item>タイ</item>
+        <item>バハマ</item>
+        <item>ガンビア</item>
+        <item>トーゴ</item>
+        <item>トケラウ</item>
+        <item>トンガ</item>
+        <item>トリニダード·トバゴ</item>
+        <item>チュニジア</item>
+        <item>トルコ</item>
+        <item>トルクメニスタン</item>
+        <item>タークスカイコス諸島</item>
+        <item>ツバル</item>
+        <item>バージン諸島</item>
+        <item>ウガンダ</item>
+        <item>ウクライナ</item>
+        <item>アラブ首長国連邦</item>
+        <item>イギリス</item>
+        <item>米国</item>
+        <item>アメリカ合衆国外諸島</item>
+        <item>ウルグアイ</item>
+        <item>ウズベキスタン</item>
+        <item>バヌアツ</item>
+        <item>バチカン市国</item>
+        <item>ベネズエラ</item>
+        <item>ベトナム</item>
+        <item>ワリー·エ·フトゥーナ</item>
+        <item>西サハラ</item>
+        <item>イエメン</item>
+        <item>ユーゴスラビア</item>
+        <item>ザンビア</item>
+        <item>ジンバブエ</item>
+    </string-array>
+    <string-array name="years">
+        <item></item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+    </string-array>
+
+    <string name="no_account">Error, there is no user account available</string>
+    <string name="incomplete_profile">Error,  missing profile information.</string>
+    <string name="please_complete_profile">Please complete your profile informaiton.</string>
+
+</resources>

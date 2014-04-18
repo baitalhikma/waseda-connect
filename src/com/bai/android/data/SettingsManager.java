@@ -1,16 +1,20 @@
 /**
- * Copyright (c) 2013, Redsolution LTD. All rights reserved.
+ * Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
  * 
- * This file is part of Xabber project; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License, Version 3.
- * 
- * Xabber is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License,
- * along with this program. If not, see http://www.gnu.org/licenses/.
+ * This file is part of Waseda Connect.
+ *
+ * Waseda Connect is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Waseda Connect is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Waseda Connect. If not, see <http://www.gnu.org/licenses/>.
  */
 package com.bai.android.data;
 
@@ -36,7 +40,7 @@ import com.bai.android.data.extension.otr.OTRManager;
 import com.bai.android.data.message.MessageManager;
 import com.bai.android.data.notification.NotificationManager;
 import com.bai.android.data.roster.AbstractContact;
-import com.bai.android.service.XabberService;
+import com.bai.android.service.BaiService;
 import com.bai.android.ui.adapter.ComparatorByName;
 import com.bai.android.ui.adapter.ComparatorByStatus;
 import com.bai.android.utils.Emoticons;
@@ -44,8 +48,6 @@ import com.bai.androiddev.R;
 
 /**
  * Manage operations with common settings.
- * 
- * @author alexander.ivanov
  * 
  */
 public class SettingsManager implements OnInitializedListener,
@@ -756,7 +758,7 @@ public class SettingsManager implements OnInitializedListener,
 		} else if (key.equals(Application.getInstance().getString(
 				R.string.events_persistent_key))) {
 			NotificationManager.getInstance().onMessageNotification();
-			XabberService.getInstance().changeForeground();
+			BaiService.getInstance().changeForeground();
 		} else if (key.equals(Application.getInstance().getString(
 				R.string.connection_wake_lock_key))) {
 			NetworkManager.getInstance().onWakeLockSettingsChanged();

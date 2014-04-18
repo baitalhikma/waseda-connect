@@ -1,16 +1,20 @@
 /**
- * Copyright (c) 2013, Redsolution LTD. All rights reserved.
+ * Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
  * 
- * This file is part of Xabber project; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License, Version 3.
- * 
- * Xabber is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License,
- * along with this program. If not, see http://www.gnu.org/licenses/.
+ * This file is part of Waseda Connect.
+ *
+ * Waseda Connect is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Waseda Connect is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Waseda Connect. If not, see <http://www.gnu.org/licenses/>.
  */
 package com.bai.android.data.account;
 
@@ -53,8 +57,6 @@ import com.bai.xmpp.address.Jid;
  * persistent and independent from real jid assigned by server. Real full jid
  * (assigned by server) of account can be taken by
  * {@link AccountItem#getRealAccount()}.
- * 
- * @author alexander.ivanov
  * 
  */
 public class AccountManager implements OnLoadListener, OnWipeListener {
@@ -446,7 +448,8 @@ public class AccountManager implements OnLoadListener, OnWipeListener {
 				break;
 			resource = "android" + StringUtils.randomString(8);
 		}
-		host = Application.getInstance().getResources().getString(R.string.server_address);
+
+		host = Application.getInstance().getString(R.string.server_address);
 		accountItem = addAccount(accountType.getProtocol(), true, host, port,
 				serverName, userName, storePassword, password, resource,
 				getNextColorIndex(), 0, StatusMode.available,

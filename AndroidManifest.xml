@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (c) 2013, Redsolution LTD. All rights reserved.
+<!-- Copyright (c) 2014, Bait Al-Hikma Hikma LTD. All rights reserved.
 
-     This file is part of Xabber project; you can redistribute it and/or
-     modify it under the terms of the GNU General Public License, Version 3.
+    This file is part of Waseda Connect.
 
-     Xabber is distributed in the hope that it will be useful, but
-     WITHOUT ANY WARRANTY; without even the implied warranty of
-     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-     See the GNU General Public License for more details.
+    Waseda Connect is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-     You should have received a copy of the GNU General Public License,
-     along with this program. If not, see http://www.gnu.org/licenses/.
+    Waseda Connect is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
+    You should have received a copy of the GNU General Public License
+    along with Waseda Connect.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bai.androiddev"
     android:installLocation="auto"
-    android:versionCode="84"
+    android:versionCode="88"
     android:versionName="@string/application_version" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="10"
         android:targetSdkVersion="18" />
     
     <application
@@ -81,11 +83,6 @@
         <activity
             android:name="com.bai.android.ui.LoadActivity"
             android:theme="@style/Theme.NoTitleBar"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.bai.android.ui.AboutViewer"
-            android:label="@string/about_viewer"
-            android:theme="@style/Theme"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.bai.android.ui.AccountList"
@@ -229,7 +226,7 @@
             android:theme="@style/Theme.NoTitleBar"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.bai.android.service.XabberService" />
+        <service android:name="com.bai.android.service.BaiService" />
         <service
             android:name="com.bai.android.service.SyncAdapterService"
             android:exported="true" >
@@ -266,11 +263,12 @@
         <receiver android:name="com.bai.android.receiver.ComposingPausedReceiver" />
 
         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="YOUR GOOGLE MAPS KEY" />
+
+        <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="TODO PUT YOUR KEY HERE" />
     </application>
 
     <uses-feature
@@ -300,8 +298,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera"

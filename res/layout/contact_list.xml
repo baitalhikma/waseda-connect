@@ -91,7 +91,7 @@
         android:paddingTop="10dip"
         android:paddingBottom ="10dip"
         android:singleLine="true"
-        android:text="Start group chat"
+        android:text="@string/start_group_chat"
         android:textColor="@color/text_unactive"
         android:background="@color/tinted"
         android:visibility="gone" />

@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
+
+  This file is part of Waseda Connect.
+
+  Waseda Connect is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Waseda Connect is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Waseda Connect. If not, see <http://www.gnu.org/licenses/>.
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/navigation"
         android:layout_width="match_parent"
@@ -12,7 +30,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.2"
             android:background="@color/light_bordeaux"
-            android:text="Friends"
+            android:text="@string/friends"
             android:paddingTop="7dp"
         	android:paddingBottom="7dp" />
 
@@ -22,7 +40,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.2"
             android:background="@color/light_bordeaux"
-            android:text="Chat"
+            android:text="@string/chat"
             android:paddingTop="7dp"
         	android:paddingBottom="7dp" />
 
@@ -32,7 +50,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.2"
             android:background="@color/light_bordeaux"
-            android:text="Bulletin Board"
+            android:text="@string/bulletin_board"
             android:paddingTop="7dp"
         	android:paddingBottom="7dp" />
 
@@ -42,7 +60,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.2"
             android:background="@color/light_bordeaux"
-            android:text="AR Camera"
+            android:text="@string/arcamera"
             android:paddingTop="7dp"
         	android:paddingBottom="7dp" />
 
@@ -52,7 +70,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.2"
             android:background="@color/light_bordeaux"
-            android:text="Other" 
+            android:text="@string/other" 
             android:paddingTop="7dp"
         	android:paddingBottom="7dp"/>
         

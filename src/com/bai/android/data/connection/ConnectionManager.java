@@ -31,8 +31,6 @@ import org.jivesoftware.smack.packet.IQ.Type;
 import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smackx.ServiceDiscoveryManager;
 
-import android.util.Log;
-
 import com.bai.android.data.Application;
 import com.bai.android.data.LogManager;
 import com.bai.android.data.NetworkException;
@@ -42,9 +40,9 @@ import com.bai.android.data.OnTimerListener;
 import com.bai.android.data.account.AccountItem;
 import com.bai.android.data.account.AccountManager;
 import com.bai.android.data.entity.NestedMap;
+import com.bai.androiddev.R;
 import com.bai.xmpp.address.Jid;
 import com.bai.xmpp.wlm.XMessengerOAuth2;
-import com.bai.androiddev.R;
 
 /**
  * Connection manager.
@@ -85,8 +83,7 @@ public class ConnectionManager implements OnInitializedListener,
 		SmackConfiguration.setPacketReplyTimeout(PACKET_REPLY_TIMEOUT);
 
 		ServiceDiscoveryManager.setIdentityType("handheld");
-		ServiceDiscoveryManager.setIdentityName(Application.getInstance()
-				.getString(R.string.client_name));
+		ServiceDiscoveryManager.setIdentityName(Application.getInstance().getString(R.string.client_name));
 
 		SASLAuthentication.registerSASLMechanism("X-MESSENGER-OAUTH2",
 				XMessengerOAuth2.class);

@@ -18,6 +18,6 @@
   <string name="application_package">com.bai.androiddev</string>
   <string name="client_name">Waseda Connect</string>
 
-  <string name="development_versions_81">0.9.30b</string>
+  <string name="development_versions_81">1.0.1</string>
 
 </resources>

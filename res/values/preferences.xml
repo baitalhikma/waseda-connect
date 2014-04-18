@@ -368,10 +368,6 @@
     <string name="debug_log_key">debug_log</string>
     <bool name="debug_log_default">false</bool>
 
-<!-- preference_about -->
-    <string name="preference_about">@string/about_viewer</string>
-    <string name="preference_about_key">preference_about</string>
-
 <!-- preference_account -->
     <string name="preference_accounts_key">preference_accounts</string>
 

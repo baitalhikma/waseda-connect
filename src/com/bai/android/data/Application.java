@@ -32,7 +32,7 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.os.Handler;
 
-import com.bai.android.service.XabberService;
+import com.bai.android.service.BaiService;
 import com.bai.androiddev.R;
 
 /**
@@ -160,7 +160,7 @@ public class Application extends android.app.Application {
 			listener.onInitialized();
 		}
 		initialized = true;
-		XabberService.getInstance().changeForeground();
+		BaiService.getInstance().changeForeground();
 		startTimer();
 	}
 
@@ -232,7 +232,7 @@ public class Application extends android.app.Application {
 	 */
 	public void requestToClose() {
 		closing = true;
-		stopService(XabberService.createIntent(this));
+		stopService(BaiService.createIntent(this));
 	}
 
 	/**

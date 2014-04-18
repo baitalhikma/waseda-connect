@@ -1,16 +1,20 @@
 /**
- * Copyright (c) 2013, Redsolution LTD. All rights reserved.
+ * Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
  * 
- * This file is part of Xabber project; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License, Version 3.
- * 
- * Xabber is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License,
- * along with this program. If not, see http://www.gnu.org/licenses/.
+ * This file is part of Waseda Connect.
+ *
+ * Waseda Connect is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Waseda Connect is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Waseda Connect. If not, see <http://www.gnu.org/licenses/>.
  */
 package com.bai.android.utils;
 
@@ -30,8 +34,6 @@ import com.bai.androiddev.R;
 
 /**
  * Emoticons.
- * 
- * @author alexander.ivanov
  * 
  */
 public class Emoticons {
@@ -56,16 +58,16 @@ public class Emoticons {
 		addPattern(ANDROID_EMOTICONS, "=-O", R.drawable.emo_im_surprised);
 		addPattern(ANDROID_EMOTICONS, ":*", R.drawable.emo_im_kissing);
 		addPattern(ANDROID_EMOTICONS, ":-*", R.drawable.emo_im_kissing);
-		addPattern(ANDROID_EMOTICONS, ":O", R.drawable.emo_im_wtf);
-		addPattern(ANDROID_EMOTICONS, ":-O", R.drawable.emo_im_wtf);
+//		addPattern(ANDROID_EMOTICONS, ":O", R.drawable.emo_im_wtf);
+//		addPattern(ANDROID_EMOTICONS, ":-O", R.drawable.emo_im_wtf);
 		addPattern(ANDROID_EMOTICONS, "B)", R.drawable.emo_im_cool);
 		addPattern(ANDROID_EMOTICONS, "B-)", R.drawable.emo_im_cool);
 		addPattern(ANDROID_EMOTICONS, "8)", R.drawable.emo_im_cool);
 		addPattern(ANDROID_EMOTICONS, "8-)", R.drawable.emo_im_cool);
-		addPattern(ANDROID_EMOTICONS, ":$", R.drawable.emo_im_money_mouth);
-		addPattern(ANDROID_EMOTICONS, ":-$", R.drawable.emo_im_money_mouth);
-		addPattern(ANDROID_EMOTICONS, ":-!", R.drawable.emo_im_foot_in_mouth);
-		addPattern(ANDROID_EMOTICONS, ":-[", R.drawable.emo_im_embarrassed);
+//		addPattern(ANDROID_EMOTICONS, ":$", R.drawable.emo_im_money_mouth);
+//		addPattern(ANDROID_EMOTICONS, ":-$", R.drawable.emo_im_money_mouth);
+//		addPattern(ANDROID_EMOTICONS, ":-!", R.drawable.emo_im_foot_in_mouth);
+//		addPattern(ANDROID_EMOTICONS, ":-[", R.drawable.emo_im_embarrassed);
 		addPattern(ANDROID_EMOTICONS, "O:)", R.drawable.emo_im_angel);
 		addPattern(ANDROID_EMOTICONS, "O:-)", R.drawable.emo_im_angel);
 		addPattern(ANDROID_EMOTICONS, ":\\", R.drawable.emo_im_undecided);
@@ -73,12 +75,15 @@ public class Emoticons {
 		addPattern(ANDROID_EMOTICONS, ":'(", R.drawable.emo_im_crying);
 		addPattern(ANDROID_EMOTICONS, ":D", R.drawable.emo_im_laughing);
 		addPattern(ANDROID_EMOTICONS, ":-D", R.drawable.emo_im_laughing);
-		addPattern(ANDROID_EMOTICONS, "O_o", R.drawable.emo_im_wtf);
-		addPattern(ANDROID_EMOTICONS, "o_O", R.drawable.emo_im_wtf);
+//		addPattern(ANDROID_EMOTICONS, "O_o", R.drawable.emo_im_wtf);
+//		addPattern(ANDROID_EMOTICONS, "o_O", R.drawable.emo_im_wtf);
 		addPattern(ANDROID_EMOTICONS, ">:O", R.drawable.emo_im_yelling);
 		addPattern(ANDROID_EMOTICONS, ">:0", R.drawable.emo_im_yelling);
 		addPattern(ANDROID_EMOTICONS, ":S", R.drawable.emo_im_lips_are_sealed);
 		addPattern(ANDROID_EMOTICONS, ":-S", R.drawable.emo_im_lips_are_sealed);
+		addPattern(ANDROID_EMOTICONS, "(Y)", R.drawable.emo_im_thumb_up);
+		addPattern(ANDROID_EMOTICONS, "<3", R.drawable.emo_im_heart);
+		addPattern(ANDROID_EMOTICONS, "</3", R.drawable.emo_im_broken_heart);
 	}
 
 	private static void addPattern(Map<Pattern, Integer> map, String smile,

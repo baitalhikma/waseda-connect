@@ -1,29 +1,43 @@
-Copyright (c) 2014, Bait Al-Hikma LTD.
-All rights reserved.
+Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
 
-Project is distributed under "GNU General Public License, Version 3" (see assets/LICENSE-GPLv3.txt).
+This program is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by Çîhe Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
 
-Software is based on the Xabber software, copyrighted and distributed by Redsolution LTD 2013. Changelog can be found in "assets/Xabber changelog.txt"
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+This program is distributed under "GNU General Public License, Version 3". You should
+have received a copy of the GNU General Public License along with this program. (see
+assets/LICENSE-GPLv3.txt). If not, see <http://www.gnu.org/licenses/>.
+
+This program is based on the Xabber software, copyrighted and distributed by
+Redsolution LTD, 2013. Change log can be found in "assets/Xabber changelog.txt"
 
 Modification overview
-In principle, the original software (distributed by Redsolution LTD.) was redesigned to serve the purpose of internal
-communication for students of the Waseda University, Tokyo, Japan. The main functional changes in the new version of the software are:
+The original software (distributed by Redsolution LTD.) was redesigned in order to serve
+the purpose of internal communication for students of the Waseda University, Tokyo, Japan.
+The main functional changes in the new version of the software are:
 - use of only one XMPP account (original related classes have been kept and slightly modified)
 - use of predetermined xmpp server
 - ability to self register user accounts
 - added server-specific function for creating MUC rooms between selected user contacts
-- auto-creation and joining of predetermined MUC global rooms acting as forum spaces and for sending notices to users
-- added server-specific function for updating user profile information, uploading of avatar picture and changing of password
+- auto-creation and joining of predetermined MUC global rooms acting as forum spaces and for
+sending notices to users
+- added server-specific function for updating user profile information, uploading of avatar
+picture and changing of password
 - separated view for viewing current and previous chats
-- removed some unused resources and source code - graphic resources, translations, popular xmpp client settings etc.
+- removed some unused resources and source code - graphic resources, translations, popular
+xmpp client settings etc.
 - changes GUI related elements - colors, backgrounds, some gui elements etc.
 - added simple server-specific checks for server online
 
 
-
 Note about restrictions:
 
-Following files are distributed under "Creative Commons Attribution Non-Commercial No Derivatives":
+Following files are distributed under "Creative Commons Attribution Non-Commercial
+No Derivatives":
 res/drawable*/ic_connect.png
 res/drawable*/ic_disconnect.png
 res/drawable*/ic_information.png
@@ -31,7 +45,8 @@ res/drawable*/ic_launcher.png
 res/drawable*/ic_stat_*.png
 res/drawable*/title_logo.9.png
 
-Following files are part of The Android Open Source Project licensed under the Apache License, Version 2.0 (the "License") (see assets/LICENSE-Apache2.txt):
+Following files are part of The Android Open Source Project licensed under the Apache License,
+Version 2.0 (the "License") (see assets/LICENSE-Apache2.txt):
 res/drawable/notify_panel_notification_icon_bg_tile.xml
 res/layout/info_preference.xml
 res/layout/preference.xml
@@ -39,7 +54,10 @@ res/layout/progress_preference.xml
 res/drawable*/emo_im_*.png
 res/drawable*/ic_menu_*.png
 
-The rest of graphic in res/drawable* as well as translations in res/values* are distributed under "Creative Commons Attribution Non-Commercial Share Alike".
+The rest of graphic in res/drawable* as well as translations in res/values* are distributed
+under "Creative Commons Attribution Non-Commercial Share Alike". 
+This includes art (all res/drawable/ic_map* images) from the ÅgMap Icons CollectionÅh project:
+http://mapicons.nicolasmollet.com
 
 Also following components are in use (see the source code or official sites for license details):
 

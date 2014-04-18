@@ -1,16 +1,20 @@
 /**
- * Copyright (c) 2013, Redsolution LTD. All rights reserved.
+ * Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
  * 
- * This file is part of Xabber project; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License, Version 3.
- * 
- * Xabber is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License,
- * along with this program. If not, see http://www.gnu.org/licenses/.
+ * This file is part of Waseda Connect.
+ *
+ * Waseda Connect is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Waseda Connect is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Waseda Connect. If not, see <http://www.gnu.org/licenses/>.
  */
 package com.bai.android.ui;
 
@@ -20,30 +24,27 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import com.bai.android.data.ActivityManager;
 import com.bai.android.data.Application;
 import com.bai.android.data.LogManager;
 import com.bai.android.data.account.OnAccountChangedListener;
-import com.bai.android.service.XabberService;
+import com.bai.android.service.BaiService;
 import com.bai.android.ui.helper.SingleActivity;
 import com.bai.androiddev.R;
 
 public class LoadActivity extends SingleActivity implements
 		OnAccountChangedListener {
 
-	private Animation animation;
+//	private Animation animation;
 //	private View disconnectedView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.load);
-		animation = AnimationUtils.loadAnimation(this, R.anim.connection);
+//		animation = AnimationUtils.loadAnimation(this, R.anim.connection);
 //		disconnectedView = findViewById(R.id.disconnected);
 	}
 
@@ -56,7 +57,7 @@ public class LoadActivity extends SingleActivity implements
 			((TextView) findViewById(R.id.text))
 					.setText(R.string.application_state_closing);
 		} else {
-			startService(XabberService.createIntent(this));
+			startService(BaiService.createIntent(this));
 //			disconnectedView.startAnimation(animation);
 			update();
 		}

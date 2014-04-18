@@ -1,16 +1,20 @@
 /**
- * Copyright (c) 2013, Redsolution LTD. All rights reserved.
+ * Copyright (c) 2014, Bait Al-Hikma LTD. All rights reserved.
  * 
- * This file is part of Xabber project; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License, Version 3.
- * 
- * Xabber is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License,
- * along with this program. If not, see http://www.gnu.org/licenses/.
+ * This file is part of Waseda Connect.
+ *
+ * Waseda Connect is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Waseda Connect is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Waseda Connect. If not, see <http://www.gnu.org/licenses/>.
  */
 package com.bai.android.ui;
 
@@ -29,7 +33,6 @@ import android.view.ContextMenu.ContextMenuInfo;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.SubMenu;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
@@ -46,7 +49,6 @@ import com.bai.android.data.LogManager;
 import com.bai.android.data.NetworkException;
 import com.bai.android.data.SettingsManager;
 import com.bai.android.data.SettingsManager.ChatsHideKeyboard;
-import com.bai.android.data.SettingsManager.SecurityOtrMode;
 import com.bai.android.data.account.OnAccountChangedListener;
 import com.bai.android.data.entity.BaseEntity;
 import com.bai.android.data.extension.archive.MessageArchiveManager;
@@ -55,14 +57,11 @@ import com.bai.android.data.extension.cs.ChatStateManager;
 import com.bai.android.data.extension.muc.MUCManager;
 import com.bai.android.data.extension.muc.RoomChat;
 import com.bai.android.data.extension.muc.RoomState;
-//import com.bai.android.data.extension.otr.OTRManager;
-//import com.bai.android.data.extension.otr.SecurityLevel;
 import com.bai.android.data.intent.EntityIntentBuilder;
 import com.bai.android.data.message.AbstractChat;
 import com.bai.android.data.message.MessageItem;
 import com.bai.android.data.message.MessageManager;
 import com.bai.android.data.message.OnChatChangedListener;
-import com.bai.android.data.message.RegularChat;
 import com.bai.android.data.notification.NotificationManager;
 import com.bai.android.data.roster.OnContactChangedListener;
 import com.bai.android.ui.adapter.ChatViewerAdapter;
@@ -74,14 +73,14 @@ import com.bai.android.ui.helper.ManagedActivity;
 import com.bai.android.ui.widget.PageSwitcher;
 import com.bai.android.ui.widget.PageSwitcher.OnSelectListener;
 import com.bai.androiddev.R;
+//import com.bai.android.data.extension.otr.OTRManager;
+//import com.bai.android.data.extension.otr.SecurityLevel;
 
 /**
  * Chat activity.
  * 
  * Warning: {@link PageSwitcher} is to be removed and related implementation is
  * to be fixed.
- * 
- * @author alexander.ivanov
  * 
  */
 public class ChatViewer extends ManagedActivity implements
